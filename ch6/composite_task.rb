@@ -13,7 +13,7 @@ class CompositeTask < Task
 
   def remove_sub_task(task)
     @sub_tasks.delete(task)
-    tasl.parent = nil
+    task.parent = nil
   end
 
   def []index

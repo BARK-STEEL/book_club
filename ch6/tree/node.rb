@@ -1,6 +1,6 @@
 class Node
   attr_accessor :name, :parent
-  attr_reader :children
+  attr_reader :children, :name
 
   def initialize(name)
     @name = name

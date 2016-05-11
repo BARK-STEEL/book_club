@@ -12,7 +12,7 @@ require_relative 'add_hops_task'
 require_relative 'add_bittering_hops_task'
 require_relative 'add_flavoring_hops_task'
 require_relative 'add_finishing_hops_task'
-require_relative 'boil_wort_task'	
+require_relative 'boil_wort_task'
 require_relative 'chill_wort_task'
 require_relative 'transfer_wort_task'
 
@@ -29,7 +29,6 @@ require_relative 'cap_bottles_task'
 
 beer = MakeBeerTask.new
 puts "#{beer.time_required} minutes to make beer."
-puts beer
 
 task = beer[1][2][0]
 
